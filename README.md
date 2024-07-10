@@ -30,7 +30,7 @@ screen -S rivalz
 Run the following command to download and execute the installation script directly:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/stealer/Rivalz_AI_Node/main/install_rclient.sh | bash
+curl -sL https://raw.githubusercontent.com/stealeruv/Rivalz_AI_Node/main/installriv.sh | bash
  ```
 
 
