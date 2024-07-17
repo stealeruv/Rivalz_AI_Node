@@ -72,9 +72,9 @@ Disk Serial Number ( press enter )
 Enter disk size, you want to allow the client use ( for 400gb vps - enter between 50 to 150gb)
 
 
-##Quit Screen:
+## Quit Screen:
 
-###CTRL + A + D
+### CTRL + A + D
 
 
 After setting up your node, do not forget to press the validate button on the site.
