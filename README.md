@@ -20,46 +20,49 @@ Ensure your system meets the following requirements:
 
 Follow these steps to install and run the Rivalz Node CLI using the provided script.
 
-### Step 1: Open screen 
+```
+sudo apt-get update && sudo apt-get upgrade -y
+```
+
+Install Curl : 
+```
+sudo apt install -y curl
+```
+```
+Node.js 20 
+```
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+```
+```
+sudo apt install -y nodejs
+```
+```
+node --version
+```
+
+Open Screen : 
 ```
 screen -S rivalz
 ```
 
-### Step 2: Direct Execution
-
-Run the following command to download and execute the installation script directly:
-
-```bash
-curl -sL https://raw.githubusercontent.com/stealeruv/Rivalz_AI_Node/main/installriv.sh | bash
- ```
-
-
-## Step 3: Configure the Node
-After reattaching to the tmux session, follow the prompts to configure the node by entering the following information:
-
-- Your wallet address
-- CPU cores
-- RAM size
-- Select disk type (click enter if you have only one)
-- Select disk serial number (click enter)
-- Enter disk size you want to allow the client to use
-- you can safely close the SSH screen, the node will continue working
-
-
-
-## Using screen to Check the node
-To attach to the tmux session:
-```bash
-screen -r rivalz
+Install Rivalz : 
 ```
-To detach from the screen session (without stopping the process):
+npm i -g rivalz-node-cli
+```
 
-Press Ctrl+A+D.
+Run rClient : 
+```
+rivalz run
+```
 
-## Contributing
-Feel free to fork this repository, make improvements. We welcome contributions from the community!
+Your Connected Rivalz Wallet Adress : 
+CPU Core (Choose between 2-5)
+RAM ( choose between 3 - 5)
+Disk Type (press enter)
+Disk Serial Number ( press enter ) 
+Enter disk size, you want to allow the client use ( for 400gb vps - enter between 50 to 150gb)
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+After setting up your node, do not forget to press the validate button on the site.
 
-
+https://rivalz.ai/dashboard/node-validate
