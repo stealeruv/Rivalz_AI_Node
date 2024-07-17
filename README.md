@@ -1,6 +1,9 @@
 # Rivalz_AI_Node
 Rivalz Node CLI Installation Script
 
+##First step
+
+Create an account here : https://rivalz.ai?r=cryptoconsol
 
 ## Requirements
 
@@ -28,9 +31,9 @@ Install Curl :
 ```
 sudo apt install -y curl
 ```
-```
-Node.js 20 
-```
+
+Install Node.js 20 
+
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
@@ -57,12 +60,34 @@ rivalz run
 ```
 
 Your Connected Rivalz Wallet Adress : 
+
 CPU Core (Choose between 2-5)
+
 RAM ( choose between 3 - 5)
+
 Disk Type (press enter)
+
 Disk Serial Number ( press enter ) 
+
 Enter disk size, you want to allow the client use ( for 400gb vps - enter between 50 to 150gb)
+
+
+##Quit Screen:
+
+###CTRL + A + D
+
 
 After setting up your node, do not forget to press the validate button on the site.
 
 https://rivalz.ai/dashboard/node-validate
+
+
+Update Rivalz node
+
+```
+rivalz update-version
+```
+```
+rivalz run
+```
+
