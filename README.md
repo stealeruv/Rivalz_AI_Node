@@ -59,7 +59,7 @@ Run rClient :
 rivalz run
 ```
 
-Your Connected Rivalz Wallet Adress : 
+Your Connected Rivalz Wallet Adress : your linked account address in the account creation process
 
 CPU Core (Choose between 2-5)
 
@@ -69,7 +69,8 @@ Disk Type (press enter)
 
 Disk Serial Number ( press enter ) 
 
-Enter disk size, you want to allow the client use ( for 400gb vps - enter between 50 to 150gb)
+
+Enter disk size, you want to allow the client use ( for 400gb vps - enter between 50 to 150)
 
 
 ## Quit Screen:
